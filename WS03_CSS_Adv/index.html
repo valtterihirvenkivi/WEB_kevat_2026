@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Valtteri Hirvenkivi</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        h1 {
+            color: green;
+            font-size: 2em;
+        }
+
+        p {
+            color: rgb(255, 0, 0);
+        }
+
+        body {
+            background-color: rgb(160, 160, 159);
+        }
+        .content-box {
+            padding: 20px;
+            margin: 10px;
+            background-color: #27d42f;
+            border: 1px solid #466966;
+        }
+        table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: red;">Valtteri Hirvenkivi</h1>
+
+    <p>Olen 20 vuotias aktiivinen mies Helsingistä..</p>
+
+    <img src="images/IMG_valtteri.jpg" width="200" height="200">
+
+    <h2>Harrastukset</h2>
+
+    <ol>
+        <li>Kuntosali</li>
+        <li>Kävely</li>
+        <li>Lenkkeily</li>
+    </ol>
+
+    <h2>Harrastukset</h2>
+
+    <ul>
+        <li>Kuntosali</li>
+        <li>Kävely</li>
+        <li>Lenkkeily</li>
+    </ul>
+
+    <a href="https://www.youtube.com/">Vieraile Youtubessa</a>
+
+    <div class="content-box">
+        <h3>Moikka moi</h3>
+        <p>Moikka moi!</p>
+    </div>
+
+    <table>
+        <tr>
+            <th>Kurssit</th>
+            <th>Kuvaus</th>
+        </tr>
+        <tr>
+            <td>Websivujen kehittäminen</td>
+            <td>Professional Communication in English</td>
+            <td>Liiketoimintaympäristöt</td>
+        </tr>
+        <tr>
+            <td>Nettisivujen rakentamista</td>
+            <td>Englannin kielen opettelua</td>
+            <td>Liiketoiminnan perusteiden harjoittelua</td>
+        </tr>
+    </table>
+
+    <form>
+        <label for="name">Nimi:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Sähköposti:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
