@@ -1,0 +1,134 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* moderni versio grid-gapista */
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: lightseagreen;
+  }
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.youtube {
+  background-color: #ff0000; /* YouTube punainen */
+}
+
+.laurea {
+  background-color: #005baa; /* Laurea sininen */
+}
+
+.kuva {
+  background-color: #4caf50; /* vihreä */
+}
+
+.nav-list a:hover {
+  opacity: 0.8;
+}
+.nav-list a {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-list a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #e0f7fa, #e8f5e9);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  z-index: 1000;
+}
+.card {
+  background: green
+  margin: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
