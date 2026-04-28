@@ -91,15 +91,15 @@ section {
 }
 
 .youtube {
-  background-color: #ff0000; /* YouTube punainen */
+  background-color: #ff0000;
 }
 
 .laurea {
-  background-color: #005baa; /* Laurea sininen */
+  background-color: #005baa;
 }
 
 .kuva {
-  background-color: #4caf50; /* vihreä */
+  background-color: #4caf50;
 }
 
 .nav-list a:hover {
